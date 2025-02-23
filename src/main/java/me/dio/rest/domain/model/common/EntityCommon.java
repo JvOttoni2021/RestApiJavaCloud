@@ -17,11 +17,11 @@ public abstract class EntityCommon {
         createdAt = Instant.now();
     }
 
-    private Instant getCreatedAt() {
+    public Instant getCreatedAt() {
         return createdAt;
     }
 
-    private Long getId() {
+    public Long getId() {
         return id;
     }
 }
